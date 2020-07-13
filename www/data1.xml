@@ -1,0 +1,117 @@
+<?xml version='1.0'?>
+<device>
+  <osversion>android 6.0</osversion>
+  <layout>
+    
+    <screen>
+      <width>1920</width>
+      <height>1080</height>
+    </screen>
+    <version>1</version>
+    <group>DEMO DISPLAY</group>
+    <subgroup>TEST</subgroup>
+
+    <!-- default background color is black -->
+    <region>
+      <media>background</media>
+      <name>regionbg1</name>
+      <posx>0</posx>
+      <posy>0</posy>
+      <posz>0</posz>
+      <width>100</width>
+      <height>100</height>
+      <playlist>
+        <material>
+          <bgcolor>black</bgcolor>
+        </material>
+      </playlist>
+    </region>
+
+    <region>
+      <media>image</media>
+      <name>regionslide1</name>
+      <posx>20</posx>
+      <posy>0</posy>
+      <posz>1</posz>
+      <width>80</width>
+      <height>20</height>
+      <playlist>
+        <material>
+          <url linktype='core'>mobil1.jpg</url>
+          <startdate>20100910</startdate>
+          <stopdate>20280911</stopdate>
+          <duration>5000</duration>
+          <transtype>2</transtype>
+          <runonce>1</runonce>
+        </material>
+        
+        <material>
+          <url linktype='core'>mobil2.jpg</url>
+          <startdate>20100910</startdate>
+          <stopdate>20280911</stopdate>
+          <duration>5000</duration>
+          <transtype>2</transtype>
+          <runonce>0</runonce>
+        </material>
+      
+      </playlist>
+    </region>
+
+    <region>
+      <media>video</media>
+      <name>regionvid1</name>
+      <posx>0</posx>
+      <posy>0</posy>
+      <posz>1</posz>
+      <width>20</width>
+      <height>20</height>
+      <playlist>
+        <material>
+          <url linktype='core'>ad1.mp4</url>
+          <startdate>20100910</startdate>
+          <stopdate>20280910</stopdate>
+          <runonce>0</runonce>
+        </material>
+      </playlist>
+    </region>
+
+    <region>
+      <media>webview</media>
+      <name>regionwebview1</name>
+      <posx>0</posx>
+      <posy>22</posy>
+      <posz>1</posz>
+      <width>100</width>
+      <height>70</height>
+      <playlist>
+        <material>
+          <url linktype='live'>https://toyotatrust.astra.co.id</url>
+          <bgcolor>white</bgcolor>
+        </material>
+      </playlist>
+    </region>
+   
+
+    <region>
+      <media>movingtext</media>
+      <name>regiontext1</name>
+      <posx>0</posx>
+      <posy>94</posy>
+      <posz>1</posz>
+      <width>100</width>
+      <height>5</height>
+      <playlist>
+        <material>
+          <text texttype='static'>Test 11...</text>
+          <border color='yellow'>1</border>
+          <background bgtype='solid'>green</background>
+          <font color='white'>1</font>	
+          <speed>fast</speed>
+        </material>
+      </playlist>
+    </region>
+
+
+    
+  </layout>
+</device>

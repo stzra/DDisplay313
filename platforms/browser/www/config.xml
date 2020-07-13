@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.demo.ddisplay" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
+    <feature name="Camera">
+        <param name="browser-package" value="Camera" />
+    </feature>
+    <feature name="Device">
+        <param name="browser-package" value="Device" />
+    </feature>
+    <name>Signage Display</name>
+    <description>
+        Signage Display
+    </description>
+    <author email="smauritz@hotmail.com" href="http://signage001.net">
+        Kirin Studios
+    </author>
+    <content src="index.html" />
+    <access origin="*" subdomains="true" />
+    <allow-navigation href="http://*/*" />
+    <allow-navigation href="https://*/*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <preference name="windows-identity-name" value="2911KirinStudios.SignageDisplayDEMO1" />
+    <preference name="windows-appx-target" value="uap" />
+    <preference name="windows-arch" value="x64" />
+    <preference name="windows-phone-target-version" value="10.0" />
+    <preference name="windows-target-version" value="10.0" />
+    <preference name="Windows.Universal" value="10.0.10240.0" />
+    <preference name="WindowsDefaultUriPrefix" value="ms-appx://" />
+    <preference name="Windows.Mobile-MaxVersionTested" value="10.0.10031.0" />
+    <preference name="Windows.Universal-MinVersion" value="10.0.0.0" />
+    <preference name="WindowsStoreIdentityName" value="2911KirinStudios.SignageDisplayDEMO1" />
+    <preference name="WindowsStorePublisherName" value="CN=7F7DAE41-B94B-416F-A814-06CEB4579DD9" />
+    <preference name="WindowsToastCapable" value="true" />
+    <preference name="uap-target-min-version" value="10.0.10586.0" />
+    <preference name="phonegap-version" value="cli-7.1.0" />
+    <preference name="Orientation" value="default" />
+    <preference name="AndroidPersistentFileLocation" value="Compatibility" />
+    <preference name="AndroidExtraFilesystems" value="files,files-external,documents,sdcard,cache,cache-external,assets,root" />
+    <preference name="UIWebViewBounce" value="false" />
+    <preference name="webviewbounce" value="false" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="CrosswalkAnimatable" value="true" />
+</widget>

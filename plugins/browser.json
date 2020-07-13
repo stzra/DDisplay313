@@ -1,0 +1,106 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "com.demo.signage1"
+        },
+        "cordova-plugin-file-transfer": {
+            "PACKAGE_NAME": "com.demo.signage1"
+        },
+        "cordova-plugin-battery-status": {
+            "PACKAGE_NAME": "com.demo.ddisplay"
+        },
+        "cordova-plugin-ble-central": {
+            "PACKAGE_NAME": "com.demo.ddisplay"
+        },
+        "cordova-plugin-camera": {
+            "PACKAGE_NAME": "com.demo.ddisplay"
+        },
+        "cordova-plugin-contacts": {
+            "PACKAGE_NAME": "com.demo.ddisplay"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.demo.ddisplay"
+        },
+        "cordova-plugin-device-motion": {
+            "PACKAGE_NAME": "com.demo.ddisplay"
+        },
+        "cordova-plugin-dialogs": {
+            "PACKAGE_NAME": "com.demo.ddisplay"
+        },
+        "cordova-plugin-geolocation": {
+            "PACKAGE_NAME": "com.demo.ddisplay"
+        },
+        "cordova-plugin-globalization": {
+            "PACKAGE_NAME": "com.demo.ddisplay"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "com.demo.ddisplay"
+        },
+        "cordova-plugin-insomnia": {
+            "PACKAGE_NAME": "com.demo.ddisplay"
+        },
+        "cordova-plugin-media": {
+            "PACKAGE_NAME": "com.demo.ddisplay"
+        },
+        "cordova-plugin-media-capture": {
+            "PACKAGE_NAME": "com.demo.ddisplay"
+        },
+        "cordova-plugin-network-information": {
+            "PACKAGE_NAME": "com.demo.ddisplay"
+        },
+        "cordova-plugin-screen-orientation": {
+            "PACKAGE_NAME": "com.demo.ddisplay"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "com.demo.ddisplay"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "com.demo.ddisplay"
+        },
+        "cordova-plugin-streaming-media": {
+            "PACKAGE_NAME": "com.demo.ddisplay"
+        },
+        "cordova-plugin-vibration": {
+            "PACKAGE_NAME": "com.demo.ddisplay"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.demo.ddisplay"
+        },
+        "cordova-plugin-x-socialsharing": {
+            "PACKAGE_NAME": "com.demo.ddisplay"
+        },
+        "phonegap-plugin-contentsync": {
+            "PACKAGE_NAME": "com.demo.ddisplay"
+        },
+        "phonegap-plugin-mobile-accessibility": {
+            "PACKAGE_NAME": "com.demo.ddisplay"
+        },
+        "com.darktalker.cordova.screenshot": {
+            "PACKAGE_NAME": "com.demo.ddisplay"
+        },
+        "cordova-plugin-crosswalk-webview": {
+            "PACKAGE_NAME": "com.demo.ddisplay"
+        },
+        "cordova-plugin-ezar-snapshot": {
+            "PACKAGE_NAME": "com.demo.ddisplay"
+        },
+        "cordova-plugin-ping": {
+            "PACKAGE_NAME": "com.demo.ddisplay"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "com.demo.ddisplay"
+        },
+        "es6-promise-plugin": {
+            "PACKAGE_NAME": "com.demo.ddisplay"
+        }
+    }
+}

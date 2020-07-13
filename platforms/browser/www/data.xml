@@ -1,0 +1,104 @@
+﻿<?xml version='1.0'?>
+<device>
+  <osversion>windows 7</osversion>
+  <layout>
+    <screen>
+      <width>1920</width>
+      <height>1080</height>
+    </screen>
+    <version>1</version>
+    <group>Offline Demo</group>
+
+    <region>
+      <media>background</media>
+      <name>StaticImg_320x520</name>
+      <posx>0</posx>
+      <posy>0</posy>
+      <posz>0</posz>
+      <width>100</width>
+      <height>100</height>
+      <playlist>
+        <material>
+          <url linktype='core'>pixel-nature.gif</url>
+          <startdate>20110101</startdate>
+          <stopdate>20990101</stopdate>
+          <starttime>000000</starttime>
+          <stoptime>235959</stoptime>
+          <runonce>0</runonce>
+        </material>
+      </playlist>
+    </region>
+
+    <region>
+      <media>image</media>
+      <name>Header_1920x200</name>
+      <posx>10</posx>
+      <posy>27</posy>
+      <posz>1</posz>
+      <width>80</width>
+      <height>47</height>
+      <playlist>
+        <material>
+          <url linktype='core'>benuafantasy1.png</url>
+          <startdate>20190101</startdate>
+          <stopdate>20890101</stopdate>
+          <starttime>000000</starttime>
+          <stoptime>235959</stoptime>
+          <duration>15000</duration>
+          <transtype>5</transtype>
+          <runonce>0</runonce>
+        </material>
+        <material>
+          <url linktype='core'>benuafantasy2.png</url>
+          <startdate>20190101</startdate>
+          <stopdate>20890101</stopdate>
+          <starttime>000000</starttime>
+          <stoptime>235959</stoptime>
+          <duration>20000</duration>
+          <transtype>5</transtype>
+          <runonce>0</runonce>
+        </material>
+        <material>
+          <url linktype='core'>benuafantasy3.png</url>
+          <startdate>20190101</startdate>
+          <stopdate>20890101</stopdate>
+          <starttime>000000</starttime>
+          <stoptime>235959</stoptime>
+          <duration>25000</duration>
+          <transtype>1</transtype>
+          <runonce>0</runonce>
+        </material>
+        <material>
+          <url linktype='core'>benuafantasy1.png</url>
+          <startdate>20190101</startdate>
+          <stopdate>20890101</stopdate>
+          <starttime>000000</starttime>
+          <stoptime>235959</stoptime>
+          <duration>15000</duration>
+          <transtype>1</transtype>
+          <runonce>0</runonce>
+        </material>
+        <material>
+          <url linktype='core'>benuafantasy2.png</url>
+          <startdate>20190101</startdate>
+          <stopdate>20890101</stopdate>
+          <starttime>000000</starttime>
+          <stoptime>235959</stoptime>
+          <duration>20000</duration>
+          <transtype>1</transtype>
+          <runonce>0</runonce>
+        </material>
+        <material>
+          <url linktype='core'>benuafantasy3.png</url>
+          <startdate>20190101</startdate>
+          <stopdate>20890101</stopdate>
+          <starttime>000000</starttime>
+          <stoptime>235959</stoptime>
+          <duration>25000</duration>
+          <transtype>5</transtype>
+          <runonce>0</runonce>
+        </material>
+      </playlist>
+    </region>
+  </layout>
+</device>

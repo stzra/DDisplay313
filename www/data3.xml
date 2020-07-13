@@ -1,0 +1,163 @@
+﻿<?xml version='1.0'?>
+<device>
+  <osversion>windows 7</osversion>
+  <layout>
+    <screen>
+      <width>1920</width>
+      <height>1080</height>
+    </screen>
+    <version>12</version>
+    <group>4</group>
+    <region>
+      <media>image</media>
+      <name>Header_1920x200</name>
+      <posx>0</posx>
+      <posy>0</posy>
+      <posz>1</posz>
+      <width>100</width>
+      <height>18</height>
+      <playlist>
+        <material>
+          <url linktype='live'>http://178.128.24.255:8091/contents/images/4/001headerDeadpool.jpg</url>
+          <startdate>20190101</startdate>
+          <stopdate>20390101</stopdate>
+          <starttime>000000</starttime>
+          <stoptime>235959</stoptime>
+          <duration>5000</duration>
+          <transtype>1</transtype>
+          <runonce>0</runonce>
+        </material>
+        <material>
+          <url linktype='live'>http://178.128.24.255:8091/contents/images/4/002headerLordoftherings.jpg</url>
+          <startdate>20190101</startdate>
+          <stopdate>20390101</stopdate>
+          <starttime>000000</starttime>
+          <stoptime>235959</stoptime>
+          <duration>5000</duration>
+          <transtype>2</transtype>
+          <runonce>0</runonce>
+        </material>
+        <material>
+          <url linktype='live'>http://178.128.24.255:8091/contents/images/4/003headerOptimusprime.jpg</url>
+          <startdate>20190101</startdate>
+          <stopdate>20390101</stopdate>
+          <starttime>000000</starttime>
+          <stoptime>235959</stoptime>
+          <duration>5000</duration>
+          <transtype>1</transtype>
+          <runonce>0</runonce>
+        </material>
+        <material>
+          <url linktype='live'>http://178.128.24.255:8091/contents/images/4/004headerCars.jpg</url>
+          <startdate>20190101</startdate>
+          <stopdate>20390101</stopdate>
+          <starttime>000000</starttime>
+          <stoptime>235959</stoptime>
+          <duration>5000</duration>
+          <transtype>3</transtype>
+          <runonce>0</runonce>
+        </material>
+      </playlist>
+    </region>
+    <region>
+      <media>video</media>
+      <name>Video_1280x720</name>
+      <posx>0</posx>
+      <posy>18</posy>
+      <posz>1</posz>
+      <width>66</width>
+      <height>66</height>
+      <effect>normal</effect>
+      <playlist>
+        <material>
+          <url linktype='live'>http://178.128.24.255:8091/contents/videos/4/babilontower.mp4</url>
+          <startdate>20190101</startdate>
+          <stopdate>20390101</stopdate>
+          <starttime>000000</starttime>
+          <stoptime>235959</stoptime>
+          <runonce>0</runonce>
+        </material>
+        <material>
+          <url linktype='live'>http://178.128.24.255:8091/contents/videos/4/slamdunk.mp4</url>
+          <startdate>20190101</startdate>
+          <stopdate>20390101</stopdate>
+          <starttime>000000</starttime>
+          <stoptime>235959</stoptime>
+          <runonce>0</runonce>
+        </material>
+        <material>
+          <url linktype='live'>http://178.128.24.255:8091/contents/videos/4/gaiking.mp4</url>
+          <startdate>20190101</startdate>
+          <stopdate>20390101</stopdate>
+          <starttime>000000</starttime>
+          <stoptime>120000</stoptime>
+          <runonce>0</runonce>
+        </material>
+        <material>
+          <url linktype='live'>http://178.128.24.255:8091/contents/videos/4/polymar.mp4</url>
+          <startdate>20190101</startdate>
+          <stopdate>20390101</stopdate>
+          <starttime>120001</starttime>
+          <stoptime>235959</stoptime>
+          <runonce>0</runonce>
+        </material>
+      </playlist>
+    </region>
+    <region>
+      <media>background</media>
+      <name>StaticImg_320x520</name>
+      <posx>66</posx>
+      <posy>18</posy>
+      <posz>1</posz>
+      <width>16</width>
+      <height>66</height>
+      <playlist>
+        <material>
+          <url linktype='live'>http://178.128.24.255:8091/contents/images/4/001kiriImage.jpg</url>
+          <startdate>20190101</startdate>
+          <stopdate>20390101</stopdate>
+          <starttime>000000</starttime>
+          <stoptime>235959</stoptime>
+          <runonce>0</runonce>
+        </material>
+      </playlist>
+    </region>
+    <region>
+      <media>background</media>
+      <name>StaticImg_320x520</name>
+      <posx>83</posx>
+      <posy>18</posy>
+      <posz>1</posz>
+      <width>16</width>
+      <height>66</height>
+      <playlist>
+        <material>
+          <url linktype='live'>http://178.128.24.255:8091/contents/images/4/002kananImage.jpg</url>
+          <startdate>20190101</startdate>
+          <stopdate>20390101</stopdate>
+          <starttime>000000</starttime>
+          <stoptime>235959</stoptime>
+          <runonce>0</runonce>
+        </material>
+      </playlist>
+    </region>
+    <region>
+      <media>movingtext</media>
+      <name>RunningTxt_1920x160</name>
+      <posx>0</posx>
+      <posy>85</posy>
+      <posz>1</posz>
+      <width>100</width>
+      <height>14</height>
+      <playlist>
+        <material>
+          <text>Hotline : (021) 555-555555. Email : multimedia@moratelindo.co.id. Copyright 2019</text>
+          <border color='black'>1</border>
+          <background>black</background>
+          <font color='white'>120</font>
+          <speed>normal</speed>
+        </material>
+      </playlist>
+    </region>
+  </layout>
+</device>

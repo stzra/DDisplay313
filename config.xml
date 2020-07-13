@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.demo.ddisplay" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Signage Display</name>
+    <description>
+        Signage Display
+    </description>
+    <author email="smauritz@hotmail.com" href="http://signage001.net">
+        Kirin Studios
+    </author>
+    <preference name="windows-identity-name" value="2911KirinStudios.SignageDisplayDEMO1" />
+    <preference name="windows-appx-target" value="uap" />
+    <preference name="windows-arch" value="x64" />
+    <preference name="windows-phone-target-version" value="10.0" />
+    <preference name="windows-target-version" value="10.0" />
+    <preference name="Windows.Universal" value="10.0.10240.0" />
+    <preference name="WindowsDefaultUriPrefix" value="ms-appx://" />
+    <preference name="Windows.Mobile-MaxVersionTested" value="10.0.10031.0" />
+    <preference name="Windows.Universal-MinVersion" value="10.0.0.0" />
+    <preference name="WindowsStoreIdentityName" value="2911KirinStudios.SignageDisplayDEMO1" />
+    <preference name="WindowsStorePublisherName" value="CN=7F7DAE41-B94B-416F-A814-06CEB4579DD9" />
+    <preference name="WindowsToastCapable" value="true" />
+    <preference name="uap-target-min-version" value="10.0.10586.0" />
+    <preference name="phonegap-version" value="cli-7.1.0" />
+    <preference name="Orientation" value="default" />
+    <preference name="AndroidPersistentFileLocation" value="Compatibility" />
+    <preference name="AndroidExtraFilesystems" value="files,files-external,documents,sdcard,cache,cache-external,assets,root" />
+    <preference name="UIWebViewBounce" value="false" />
+    <preference name="webviewbounce" value="false" />
+    <preference name="DisallowOverscroll" value="true" />
+    <plugin name="cordova-plugin-battery-status" spec="2.0.2" />
+    <plugin name="cordova-plugin-ble-central" spec="1.2.2" />
+    <plugin name="cordova-plugin-camera" spec="4.0.3" />
+    <plugin name="cordova-plugin-device" spec="2.0.2" />
+    <plugin name="cordova-plugin-dialogs" spec="2.0.1" />
+    <plugin name="cordova-plugin-file" spec="6.0.1" />
+    <plugin name="cordova-plugin-file-transfer" spec="1.7.1" />
+    <plugin name="cordova-plugin-geolocation" spec="4.0.1" />
+    <plugin name="cordova-plugin-globalization" spec="1.11.0" />
+    <plugin name="cordova-plugin-inappbrowser" spec="3.0.0" />
+    <plugin name="cordova-plugin-insomnia" spec="4.3.0" />
+    <plugin name="cordova-plugin-media" spec="5.0.2" />
+    <plugin name="cordova-plugin-media-capture" spec="3.0.2" />
+    <plugin name="cordova-plugin-network-information" spec="2.0.1" />
+    <plugin name="cordova-plugin-screen-orientation" spec="3.0.1" />
+    <plugin name="cordova-plugin-splashscreen" spec="5.0.2" />
+    <plugin name="cordova-plugin-statusbar" spec="2.4.2" />
+    <plugin name="cordova-plugin-streaming-media" spec="2.1.3" />
+    <plugin name="cordova-plugin-whitelist" spec="1.3.3" />
+    <plugin name="cordova-screenshot-master" spec="https://github.com/gitawego/cordova-screenshot.git" />
+    <plugin name="com.abdsoft.Hash" spec="https://github.com/Abdsoft/phonegap-hash.git" />
+    <plugin name="com.ourcodeworld.plugins.Filebrowser" spec="https://github.com/ourcodeworld/cordova-ourcodeworld-filebrowser.git" />
+    <plugin name="cordova-plugin-zip" spec="https://github.com/MobileChromeApps/cordova-plugin-zip.git" />
+    <plugin name="com.darktalker.cordova.screenshot" />
+    <plugin name="es6-promise-plugin" spec="4.2.2" />
+    <plugin name="phonegap-plugin-contentsync" spec="1.4.2" />
+    <plugin name="phonegap-plugin-mobile-accessibility" spec="1.0.5-dev" />
+    <plugin name="cordova-plugin-ezar-snapshot" />
+    <plugin name="cordova-plugin-ping" />
+    <feature name="Screenshot">
+        <param name="android-package" value="org.apache.cordova.screenshot.Screenshot"/>
+    </feature>
+    <preference name="CrosswalkAnimatable" value="true" />
+    <content src="index.html" />
+    <access origin="*" subdomains="true" />
+    <allow-navigation href="http://*/*" />
+    <allow-navigation href="https://*/*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+</widget>

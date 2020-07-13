@@ -1,0 +1,22 @@
+{
+  "name": "cordova-plugin-ezar-snapshot",
+  "version": "1.0.0",
+  "description": "Capture an image of application UI including Cordova webview",
+  "cordova": {
+    "id": "cordova-plugin-ezar-snapshot",
+    "platforms": [
+      "ios",
+      "android"
+    ]
+  },
+  "keywords": [
+    "snapshot",
+    "screenshot",
+    "ecosystem:cordova",
+    "cordova-ios",
+    "cordova-android"
+  ],
+  "author": "Wayne Parrott <wayne@ezartech.com> (https://ezartech.com)",
+  "license": "modified MIT License, see http://ezartech.com/ezarstartupkit-license",
+  "homepage": "https://ezartech.com"
+}
